@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Styles -->
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="tailwind.intit.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+
+<body class="bg-[3E5E5E5] text-[#3c3c3c]">
+
+    <!-- Header Section starts -->
+    <header class="bg-[#FFFBF0] flex flex-col gap-10 md:gap-15 h-[715px] relative">
+
+        <!-- Navbar -->
+        <nav  class="w-[90%] md:w-[87.5%] mx-auto mt-5  font-medium flex justify-between items-center  z-10">
+            <img class="w-48 md:w-[290px] " src="assets/icons/logo.png" alt="">
+            <ul class="hidden md:flex md:gap-5 lg:gap-[57px]  ">
+                <li>Home</li>
+                <li>Product</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+            <span class="block md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        </nav>
+
+        <!-- Main Hero -->
+         <section class="hero-container w-[90%] md:w-[87.5%] mx-auto flex flex-col justify-start gap-4 lg:gap-8 md:flex-row md:justify-between ">
+
+
+            <div class=" w-full md:w-[40%] flex flex-col justify-center items-start text-left gap-2">
+
+
+                <h1 class="uppercase text-[60px] md:text-[80px] text-[#FABE4C] leading-15 md:leading-25">Be the penguins <br><span class="text-[#363958]" style="font-family: 'Bebas Neue', sans-serif;">of winter</span></h1>
+
+
+                <p class="text-[16px] text-[#3e3e3e]">Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry.</p>
+
+
+                <button class="bg-linear-to-b from-[#A4BC46] to-[#85A019] flex justify-center items-center rounded-[10px] gap-2 w-[170px] h-[60px]  text-white text-center  font-medium uppercase cursor-pointer shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+                    <img class="w-5 h-5" src="assets/icons/shopping-cart 1.png" alt="">
+                    Buy now
+                </button>
+
+
+            </div>
+            <div class="flex  justify-center md:justify-end" >
+                <img width="550px" class="w-[350px] lg:w-[550px] " src="assets/images/model.png" alt="">
+            </div>
+            
+            
+         </section>
+
+         <!-- Banner dot image -->
+          <img class="absolute top-[-89px] left-[40%] " src="assets/icons/banner_dot.png" alt="">
+    </header>
+    <!-- Header Section Ends -->
+
+
+    <!-- Woman Section Starts -->
+     
+    <section class="w-[90%] md:w-[87.5%] mt-10 mx-auto">
+        <h1 class=" text-center lg:text-left text-[36px] md:text-[48px] text-[#363958] uppercase">women's jacket</h1>
+        <div class="card-container flex flex-wrap lg:flex-nowrap justify-center lg:justify-between gap-4">
+            <!-- Card 1 -->
+            <div class="card w-[343px] lg:w-[370px] bg-white flex flex-col rounded-[20px] shadow-[0px_10px_30px_rgba(0,0,0,0.05)] p-5 gap-4">
+                <div class="bg-[#f1f1f1] rounded-[20px] p-5"> 
+                    <img class="" src="assets/images/jacket-1.png" alt="">
+                </div>
+                <p class="text-[24px] text-[#363958] font-bold">Yellow Coat Jacket</p>
+                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus amet nam architecto.</p>
+                <div class="bottom flex gap-2 justify-between">
+                    <p class="text-[36px] text-[#fabe4c] font-black ">$234</p>
+                    <button
+                        class="bg-linear-to-b from-[#A4BC46] to-[#85A019] flex justify-center items-center rounded-[10px] gap-2 w-[170px] h-[60px] lg:w-[150px] lg:h-[50px] xl:w-[170px] xl:h-[60px]  text-white text-center  font-medium uppercase cursor-pointer shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+                        <img class="w-5 h-5" src="assets/icons/shopping-cart 1.png" alt="">
+                        Buy now
+                    </button>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card w-[343px] lg:w-[370px] bg-white flex flex-col rounded-[20px] shadow-[0px_10px_30px_rgba(0,0,0,0.05)] p-5 gap-4">
+                <div class="bg-[#f1f1f1] rounded-[20px] p-5"> 
+                    <img class="" src="assets/images/jacket-2.png" alt="">
+                </div>
+                <p class="text-[24px] text-[#363958] font-bold">Ladies Jacket</p>
+                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus amet nam architecto.</p>
+                <div class="bottom flex gap-2 justify-between">
+                    <p class="text-[36px] text-[#fabe4c] font-black ">$234</p>
+                    <button
+                        class="bg-linear-to-b from-[#A4BC46] to-[#85A019] flex justify-center items-center rounded-[10px] gap-2 w-[170px] h-[60px] lg:w-[150px] lg:h-[50px] xl:w-[170px] xl:h-[60px]  text-white text-center  font-medium uppercase cursor-pointer shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+                        <img class="w-5 h-5" src="assets/icons/shopping-cart 1.png" alt="">
+                        Buy now
+                    </button>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card w-[343px] lg:w-[370px] bg-white flex flex-col rounded-[20px] shadow-[0px_10px_30px_rgba(0,0,0,0.05)] p-5 gap-4">
+                <div class="bg-[#f1f1f1] rounded-[20px] p-5"> 
+                    <img class="" src="assets/images/jacket-3.png" alt="">
+                </div>
+                <p class="text-[24px] text-[#363958] font-bold">Women Leather Jacket</p>
+                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus amet nam architecto.</p>
+                <div class="bottom flex gap-2 justify-between">
+                    <p class="text-[36px] text-[#fabe4c] font-black ">$234</p>
+                    <button
+                        class="bg-linear-to-b from-[#A4BC46] to-[#85A019] flex justify-center items-center rounded-[10px] gap-2 w-[170px] h-[60px] lg:w-[150px] lg:h-[50px] xl:w-[170px] xl:h-[60px]  text-white text-center  font-medium uppercase cursor-pointer shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+                        <img class="w-5 h-5" src="assets/icons/shopping-cart 1.png" alt="">
+                        Buy now
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Woman Section Ends -->
+
+
+
+<!-- man Section Starts -->
+
+<section class="w-[90%] md:w-[87.5%] mt-20 mx-auto">
+    <h1 class=" text-center lg:text-left text-[36px] md:text-[48px] text-[#363958] uppercase">men's jacket</h1>
+    <div class="card-container flex flex-wrap lg:flex-nowrap justify-center lg:justify-between ">
+        <!-- Card 1 -->
+        <div
+            class="card w-[343px] lg:w-[370px] bg-white flex flex-col rounded-[20px] shadow-[0px_10px_30px_rgba(0,0,0,0.05)] p-5 gap-4">
+            <div class="bg-[#f1f1f1] rounded-[20px] p-5">
+                <img class="" src="assets/images/jacket-4.png" alt="">
+            </div>
+            <p class="text-[24px] text-[#363958] font-bold">Snowboard Jacket Men</p>
+            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus amet nam architecto.
+            </p>
+            <div class="bottom flex gap-2 justify-between">
+                <p class="text-[36px] text-[#fabe4c] font-black ">$234</p>
+                <button
+                    class="bg-linear-to-b from-[#A4BC46] to-[#85A019] flex justify-center items-center rounded-[10px] gap-2 w-[170px] h-[60px] lg:w-[150px] lg:h-[50px] xl:w-[170px] xl:h-[60px]  text-white text-center  font-medium uppercase cursor-pointer shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+                    <img class="w-5 h-5" src="assets/icons/shopping-cart 1.png" alt="">
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div
+            class="card w-[343px] lg:w-[370px] bg-white flex flex-col rounded-[20px] shadow-[0px_10px_30px_rgba(0,0,0,0.05)] p-5 gap-4">
+            <div class="bg-[#f1f1f1] rounded-[20px] p-5">
+                <img class="" src="assets/images/jacket-5.png" alt="">
+            </div>
+            <p class="text-[24px] text-[#363958] font-bold">Man Leather Jacket</p>
+            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus amet nam architecto.
+            </p>
+            <div class="bottom flex gap-2 justify-between">
+                <p class="text-[36px] text-[#fabe4c] font-black ">$234</p>
+                <button
+                    class="bg-linear-to-b from-[#A4BC46] to-[#85A019] flex justify-center items-center rounded-[10px] gap-2 w-[170px] h-[60px] lg:w-[150px] lg:h-[50px] xl:w-[170px] xl:h-[60px]  text-white text-center  font-medium uppercase cursor-pointer shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+                    <img class="w-5 h-5" src="assets/icons/shopping-cart 1.png" alt="">
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div
+            class="card w-[343px] lg:w-[370px] bg-white flex flex-col rounded-[20px] shadow-[0px_10px_30px_rgba(0,0,0,0.05)] p-5 gap-4">
+            <div class="bg-[#f1f1f1] rounded-[20px] p-5">
+                <img class="" src="assets/images/jacket-6.png" alt="">
+            </div>
+            <p class="text-[24px] text-[#363958] font-bold">Man Casual Jacket</p>
+            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus amet nam architecto.
+            </p>
+            <div class="bottom flex gap-2 justify-between">
+                <p class="text-[36px] text-[#fabe4c] font-black ">$234</p>
+                <button
+                    class="bg-linear-to-b from-[#A4BC46] to-[#85A019] flex justify-center items-center rounded-[10px] gap-2 w-[170px] h-[60px] lg:w-[150px] lg:h-[50px] xl:w-[170px] xl:h-[60px]  text-white text-center  font-medium uppercase cursor-pointer shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+                    <img class="w-5 h-5" src="assets/icons/shopping-cart 1.png" alt="">
+                    Buy now
+                </button>         
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--  man Section Ends -->
+
+
+
+<!-- Promo section -->
+ <section class="w-[90%] md:w-[87.5%] mt-20 mb-25 mx-auto">
+    <div class="flex justify-between items-center flex-col-reverse lg:flex-row gap-10">
+        <!-- First Half -->
+        <div class="f-half flex flex-col gap-4">
+            <div
+                class="flex flex-col lg:flex-row gap-5 lg:justify-between items-center rounded-[20px]  p-2  bg-white shadow-[0px_10px_30px_rgba(0,0,0,0.05)] hover:translate-y-[-5px] hover:shadow duration-500">
+                <img class="w-[78px]" src="assets/icons/house.png" alt="">
+                <div class="text-center lg:text-left">
+                    <p class="text-[24px] text-[#363958] font-bold ">Find the Perfext Fit</p>
+                    <p class="text-[#3e3e3e]">Everybody is different, which is why we offer styles for everybody</p>
+                </div>
+            </div>
+            <div
+                class="flex flex-col lg:flex-row gap-5 lg:justify-between items-center rounded-[20px]  p-2  bg-white shadow-[0px_10px_30px_rgba(0,0,0,0.05)] hover:translate-y-[-5px] hover:shadow duration-500">
+                <img class="w-[78px]" src="assets/icons/house.png" alt="">
+                <div class="text-center lg:text-left">
+                    <p class="text-[24px] text-[#363958] font-bold ">Find the Perfext Fit</p>
+                    <p class="text-[#3e3e3e]">Everybody is different, which is why we offer styles for everybody</p>
+                </div>
+            </div>
+            <div
+                class="flex flex-col lg:flex-row gap-5 lg:justify-between items-center rounded-[20px]  p-2  bg-white shadow-[0px_10px_30px_rgba(0,0,0,0.05)] hover:translate-y-[-5px] hover:shadow duration-500">
+                <img class="w-[78px]" src="assets/icons/house.png" alt="">
+                <div class="text-center lg:text-left">
+                    <p class="text-[24px] text-[#363958] font-bold ">Find the Perfext Fit</p>
+                    <p class="text-[#3e3e3e]">Everybody is different, which is why we offer styles for everybody</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Second Half -->
+        <div class="s-half">
+            <img class="w-[600px]" src="assets/images/shopping.png" alt="">
+        </div>
+    </div>
+    
+
+ </section>
+    
+</body>
+</html>
